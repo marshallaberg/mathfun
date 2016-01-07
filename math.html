@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="scripts/main.css">
+<script src="scripts/jquery-2.1.3.min.js"></script>
+<script src="scripts/mathcalcs.js"></script>
+<body>
+<input id="a"></input> <?php echo " " . $sign;?> <input id="b"></input> = <input id="c"></input>
+
+<button type="button" onclick=<?php echo " " . $func;?>>Click Me!</button>
+<p id="result"> </p>
+
+<textarea id="correct" rows="16" cols="10">Correct</textarea>
+<textarea id="needsimprovemnt" rows="16" cols="10">Needs Work</textarea>
+
+
+<div class="buttonbox" id="MENU200"><a href="#" class="buttoncap"><img id="hf" src="images/HappyFace.png"
+                                                                       alt="Correct" style="display:none;"></a></div>
+<div class="buttonbox" id="MENU330"><a href="#" class="buttoncap"><img id="sf" src="images/Sad-Face.png"
+                                                                       style="display:none;"></a>
+</div>
+<div class="clearing"><br>
+    <a> </a></div>

@@ -1,0 +1,137 @@
+body {
+    display: block;
+    font-size: 1.5em;
+    background-color: lightcyan;
+}
+.messageErr p {
+    color: red;
+}
+.button {
+    float: left;
+}
+.buttoncap {
+    height: 100px;
+    width: 300px;
+    background: image('../images/buttonback2x1.gif');
+    border:0;  /** this is here as a fix to an IE problem with auto BG Img borders **/
+}
+.buttoncap {
+    position: relative;
+    float: left;
+}
+.buttoncap img{
+    vertical-align: middle;
+}
+a:hover{
+    background-color: yellow;
+}
+.buttoncap :hover{
+    background-color: yellow;
+}
+.buttonbox a{
+    font-size: small;
+    text-transform: uppercase;
+}
+.buttonbox div{
+    height: 100px;
+    width: 350px;
+    float: left;
+    }
+.buttonbox img{
+    height: 100px;
+    width: 100px;
+}
+.buttonbox :hover{
+    background-color: yellow;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+.clearing{
+    clear: both;
+    padding: 30px 1px 1px 1px;  }
+
+#MENU101, #MENU100 img{background-color: #BB1133; }
+#MENU201, #MENU200 img{background-color: #003388; }
+#MENU300 img{        background-color: #007437; }
+#MENU310 img{        background-color: #007437; }
+#MENU320 img{        background-color: #007437; }
+#MENU330 img{        background-color: #007437; }
+#MENU340 img{        background-color: #007437; }
+#MENU350 img{        background-color: #007437; }
+#MENU400 img{        background-color: #08090a; }
+#MENU410 img{        background-color: #08090a; }
+#MENU420 img{        background-color: #08090a; }
+#MENU430 img{        background-color: #08090a; }
+#MENU440 img{        background-color: #08090a; }
+#MENU445 img{        background-color: #08090a; }
+#MENU450 img{        background-color: #08090a; }
+#MENU460 img{        background-color: #08090a; }
+#MENU470 img{        background-color: #08090a; }
+#MENU480 img{        background-color: #08090a; }
+#MENU490 img{        background-color: #08090a; }
+#MENU495 img{        background-color: #08090a; }
+#MENU499 img{        background-color: #08090a; }
+#MENU501 img{        background-color: #636466; }
+#MENU510 img{        background-color: #636466; }
+#MENU520 img{        background-color: #636466; }
+#MENU530 img{        background-color: #636466; }
+#MENU500 img{        background-color: #636466; }
+#MENU600 img{        background-color: #DD7C35; }
+#MENU601 img{        background-color: #DD7C35; }
+#MENU610 img{        background-color: #DD7C35; }
+#MENU620 img{        background-color: #DD7C35; }
+#MENU630 img{        background-color: #DD7C35; }
+#MENU640 img{        background-color: #DD7C35; }
+#MENU650 img{        background-color: #DD7C35; }
+#MENU900 img{        background-color: #08090a; }
+#MENU901 img{        background-color: #007437; }
+#MENU995, #HOME img{background-color: lightblue; }
+#MENU999, #HELP img{background-color: lightblue; }
+#btnsubmit{
+    background-color: #007437;
+    position: relative;
+    margin-right: 8px;
+    margin-top: 5px;
+    float: right;
+    border: 1px ridge #636466;
+   }
+#btnsubmit2{
+    float:none;
+}
+#footer{
+    margin:auto;
+    width: 70%;
+    }
+.messageErr p{
+    margin: auto;
+    width:75%;
+    text-align: center;
+}
+.roundedbox {
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    background: url(../images/login.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 30px;
+    width: 220px;
+    height: 180px;
+}
+.rtalign{
+    position: relative;
+    width: 220px;
+}
+
+.incrpt label {
+    display: inline-block;
+    width: 360px;
+}
+.inputform input {
+    display: inline-block;
+    width: 260px;
+}
