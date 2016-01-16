@@ -10,3 +10,4 @@ $id = "index";
 include "inc/header.inc";
 include "menu.html";
 include "inc/footer.inc";
+echo '<a>#</a>';
