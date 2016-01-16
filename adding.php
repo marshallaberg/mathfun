@@ -12,3 +12,4 @@ $func = "add()";
 include "math.html";
 include "menu.html";
 include "inc/footer.inc";
+echo '<h1>This is the new copy</h1>';
